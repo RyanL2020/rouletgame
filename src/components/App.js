@@ -1,7 +1,7 @@
 import React from "react";
-
+import SlotOne from "./SlotOne";
 const App = () => {
-    return <h1>Hello Worl!</h1>
+    return < SlotOne />
 };
 
 export default App;

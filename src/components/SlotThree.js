@@ -1,0 +1,1 @@
+// component that randomizes numbers from 0-9
