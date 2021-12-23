@@ -1,3 +1,23 @@
+ROULET GAME
+
+A game where you can wager points on a roulette.
+A player starts with 100 points.
+Can wager 5 points min. at a time.
+Max wager is 20 points. Until you reach 500 points then a player can wager a max of 100 points.
+
+Winning combinations:
+
+ Three of a kind adds 1x the wager to the player's points.
+ Sequential numbers other then 0's adds 2x the wager to the player's points.
+ Sequential even numbers 3x the wager to the player's points.(ex: 2,4,6)
+ Sequential odd numbers 3x the wager to the player's points.(ex: 1,3,5)
+
+Loosing combinations:
+ Squential zero numbers subtracts 2x the wager from the player's points.(0,0,0)
+ NO winning combination is a loss and deducts the wager from the player's points.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
