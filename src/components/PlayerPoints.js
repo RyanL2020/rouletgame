@@ -7,17 +7,31 @@ class PlayerPoints extends React.Component {
         super(props);
         this.state = {
             points: 100,
+            bet: 0,
         } 
     }
-
+    wager = 0
+    
+    handleClick = () => {
+        this.setState({bet: this.wager += 1 });
+    };
+    
     render() {
-        return (
-          <div>
-           
+        return (  
+            <div>   
+            Player Points:       
             {this.state.points}
-            
-          </div>
+        <br/>
+            Bet Points:
+            <button onClick={this.handleClick}>Click me</button>
+            {this.state.bet} 
+        </div>
         );
+    
+                
+           
+        
+        
       }
 };
 
